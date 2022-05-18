@@ -1,0 +1,43 @@
+:root{
+    --primary-color:#003e21;
+    --secondary-color: #f8d098;
+}
+
+*{
+  color: var(--secondary-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-section{
+    background-color: var(--primary-color)
+}
+.title {
+font-family: 'Shadows Into Light', cursive;   
+background-color: var(--primary-color);
+padding: 20px 35px;
+text-align: center;
+background-image: url('../images/title-photo.jpeg');
+background-position: 80%;
+color: linear-gradient(90deg, rgba(174,134,37,1) 0%, rgba(247,229,138,1) 23%, rgba(237,201,103,1) 100%);;
+}
+
+
+h2, h3 {
+    font-family: 'Amatic SC', cursive;
+
+}
+h3 {
+    font-family: 'Amatic SC', cursive;
+   
+}
+p {
+ font-family: monospace;
+
+}
+.section-title {
+    text-align: center;  
+}
+
+
