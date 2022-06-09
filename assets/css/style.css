@@ -1,50 +1,58 @@
-:root{
-    --primary-color:#003e21;
-    --secondary-color: #f8d098;
+:root {
+  --primary-color: #776871;
+  --secondary-color: #f8d098;
 }
 
-*{
-  color: var(--secondary-color);
+* {
+  color: #8498B6;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #776871;
+
 }
 
-.body-section{
-    background-color: var(--primary-color)
-}
+
 .title {
-font-family: 'Shadows Into Light', cursive;   
-background-color: var(--primary-color);
-padding: 20px 35px;
-text-align: center;
-background-image: url('../images/title-photo.jpeg');
-background-position: 80%;
-color: linear-gradient(90deg, rgba(174,134,37,1) 0%, rgba(247,229,138,1) 23%, rgba(237,201,103,1) 100%);;
+  font-family: "Shadows Into Light", cursive;
+  background-color: #776871;
+  padding: 20px 35px;
+  text-align: center;
 }
 
+body {
+    background-color: #776871;
+}
 
-h2, h3 {
-    font-family: 'Amatic SC', cursive;
+.card {
+    background-color: #91A8A4;
+}
 
+h2 {
+  font-family: "Amatic SC", cursive;
+  background-color: #91A8A4;
 }
 h3 {
-    font-family: 'Amatic SC', cursive;
-   
+  font-family: "Amatic SC", cursive;
+  /* background-color: #91A8A4; */
 }
-p {
- font-family: monospace;
-
+.card-text {
+  font-family: monospace;
+  background-color: #91A8A4;
 }
 .section-title {
-    text-align: center;  
+  text-align: center;
+  background-color: #776871;
 }
 
 .connection {
-    position: absolute;
-    bottom: 0px;
-    display: flex;
-    align-items: flex-end;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  align-items: flex-end;
+  margin: 10px;
 }
-
+ a img {
+    background-color: #91A8A4;
+ }
 
